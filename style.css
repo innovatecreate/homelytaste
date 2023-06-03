@@ -1,0 +1,168 @@
+body {
+    color: #27374D;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #FFFFFF;
+  }
+  
+  h1 {
+    color: #27374D;
+    background-color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #27374D;
+    background-color: #FFFFFF;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  h3 {
+    color: #27374D;
+    background-color: #FFFFFF;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  ul {
+    color: #27374D;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: #27374D;
+    background-color: #FFFFFF;
+    margin-bottom: 1em;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .images {
+    flex: 1;
+    margin-right: 5px;
+    margin: 10px;
+  }
+  
+  .image img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  
+  .image .description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .image .description a {
+    text-decoration: none;
+  }
+  
+  img[src="images/tacos.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="images/skewers.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="images/sticks.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="images/rings.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="images/quioana bowl.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  img[src="images/pad thai.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="recipies/lasagna2.jpeg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+
+  }
+
+  img[src="images/lasagna.png"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="images/mac and cheese.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="images/alferedo.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  img[src="images/lentil soup.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+    
+  }
+  
+  img[src="images/pita pocket.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  img[src="images/roasted vegs.jpg"] {
+    width: 200px;
+    height: 200px;
+    flex: 1;
+  }
+  
+  p {
+    color: #ffffff;
+    margin: 0 0 1em;
+  }
+  
+  a {
+    color: #27374D;
+    
+    
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #27374D;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
